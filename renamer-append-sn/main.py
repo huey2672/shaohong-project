@@ -11,7 +11,6 @@ cp.read('settings.conf')
 
 src_file_pattern = cp.get('local', 'src_file_pattern')
 dst_directory = cp.get('local', 'dst_directory')
-dst_file_suffix = cp.get('local', 'dst_file_suffix')
 csv_file = cp.get('local', 'csv_file')
 starting_number = cp.getint('local', 'starting_number')
 
